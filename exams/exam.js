@@ -1,7 +1,7 @@
 
 // fetch exams cards
 let myreq_exam = new XMLHttpRequest()
-myreq_exam.open("GET", "../exams/json/exams.json")
+myreq_exam.open("GET", "json/exams.json")
 myreq_exam.send()
 
 // get exams cards
@@ -71,7 +71,7 @@ function add_exam (exams) {
 function get_test(testURL){
 
     let myreq_test = new XMLHttpRequest()
-    myreq_test.open("GET", `../exams/json/tests/${testURL}`)
+    myreq_test.open("GET", `json/tests/${testURL}`)
     myreq_test.send()
 
 
