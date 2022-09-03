@@ -18,7 +18,7 @@ function add_exam (exams) {
         out = `
          <div class="exam-card">
         <div class="exam-name">
-            <h3></h3> 
+            <h3>${exams[i].examName}</h3> 
             </div> <hr>
         <div class="exam-info">
             <div class="detail">
