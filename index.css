@@ -878,6 +878,12 @@ footer {
 
 }
 
+.moduleWeeks .weekcontainer i {
+display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
 @media (max-width: 500px){
     
 /* .moduleWeeks { 
