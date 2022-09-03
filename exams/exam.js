@@ -1,7 +1,7 @@
 
 // fetch exams cards
 let myreq_exam = new XMLHttpRequest()
-myreq_exam.open("GET", "json/exams.json")
+myreq_exam.open("GET", "../exams/json/exams.json")
 myreq_exam.send()
 
 // get exams cards
